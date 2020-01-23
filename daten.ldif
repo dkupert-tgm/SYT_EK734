@@ -1,0 +1,110 @@
+dn: dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: syt
+dc: syt
+
+dn: cn=admin,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+
+dn: ou=itdept,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: organizationalUnit
+ou: itdept
+
+dn: ou=etdept,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: organizationalUnit
+ou: etdept
+
+dn: cn=etdept,ou=etdept,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: posixGroup
+cn: etdept
+gidNumber: 5000
+
+dn: cn=itdept,ou=itdept,dc=syt,dc=tgm,dc=ac,dc=at
+objectClass: posixGroup
+cn: itdept
+gidNumber: 5001
+
+dn: uid=chris,ou=itdept,dc=syt, dc=tgm, dc=ac, dc=at
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: chris
+sn: Haslinger
+givenName: Christoph
+cn: Christoph Haslinger
+displayName: Christoph Haslinger
+uidNumber: 10000
+gidNumber: 5000
+userPassword: chaslinger
+gecos: Christoph Haslinger
+loginShell: /bin/bash
+homeDirectory: /home/chris
+
+dn: uid=dkupert,ou=itdept,dc=syt, dc=tgm, dc=ac, dc=at
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: dkupert
+sn: Kupert
+givenName: David
+cn: David Kupert
+displayName: David Kupert
+uidNumber: 10001
+gidNumber: 5000
+userPassword: dkupert
+gecos: David Kupert
+loginShell: /bin/bash
+homeDirectory: /home/dkupert
+
+dn: uid=tdegold,ou=itdept,dc=syt, dc=tgm, dc=ac, dc=at
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: tdegold
+sn: Degold
+givenName: Tim
+cn: Tim Degold
+displayName: Tim Degold
+uidNumber: 10002
+gidNumber: 5000
+userPassword: tdegold
+gecos: Tim Degold
+loginShell: /bin/bash
+homeDirectory: /home/tdegold
+
+dn: uid=smoarefi,ou=etdept,dc=syt, dc=tgm, dc=ac, dc=at
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: smoarefi
+sn: Moarefi
+givenName: Sina
+cn: Sina Moarefi
+displayName: Sina Moarefi
+uidNumber: 10003
+gidNumber: 5001
+userPassword: smoarefi
+gecos: Sina Moarefi
+loginShell: /bin/bash
+homeDirectory: /home/smoarefi
+
+dn: uid=ttest,ou=etdept,dc=syt, dc=tgm, dc=ac, dc=at
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: ttest
+sn: Test
+givenName: Thomas
+cn: Thomas Test
+displayName: Thomas Test
+uidNumber: 10004
+gidNumber: 5001
+userPassword: ttest
+gecos: Thomas Test
+loginShell: /bin/bash
+homeDirectory: /home/ttest

@@ -121,7 +121,7 @@ Die [Datei](daten.ldif)
 Nun kann man die Daten mit folgendem Befehl einspielen
 
 ```bash
-ldapadd -x -D cn=admin,dc=syt,dc=tgm,dc=ac,dc=at -W -f daten.ldif
+ldapadd -x -D cn=admin,dc=syt,dc=tgm,dc=ac,dc=at -W -c -f daten.ldif
 ```
 
 ### LDAP-Search
@@ -197,7 +197,7 @@ att.getEnvironment();
 
 ## Quellen
 
-[1] : "" [online](https://ldapwiki.com/wiki/PosixGroup) | zuletzt beuscht 22.01.2020
+[1] : "PosixGroup" [online](https://ldapwiki.com/wiki/PosixGroup) | zuletzt beuscht 22.01.2020
 
 [2] : "What are cn, dn etc." [online](https://stackoverflow.com/questions/18756688/what-are-cn-ou-dc-in-an-ldap-search) | zuletzt beuscht 23.01.2020
 

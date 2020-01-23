@@ -14,7 +14,7 @@ Die detaillierte [Aufgabenstellung]() beschreibt die notwendigen Schritte zur Re
 
 Da wir bereits in einem früheren Übungsblock einen LDAP-Server aufgesetzt haben, habe ich mich dazu entschlossen die Übung zu "Recyceln".
 
-[LDAP-Aufsetzen]()
+[LDAP-Aufsetzen](https://github.com/dkupert-tgm/SYT_SWISS-ARMY-KNIFE/blob/master/Ubuntu_LDAP-Aufsetzen.md)
 
 ## Implementierung
 
@@ -197,17 +197,17 @@ att.getEnvironment();
 
 ## Quellen
 
-1 https://ldapwiki.com/wiki/PosixGroup
+[1] : "" [online](https://ldapwiki.com/wiki/PosixGroup) | zuletzt beuscht 22.01.2020
 
-2 https://stackoverflow.com/questions/18756688/what-are-cn-ou-dc-in-an-ldap-search
+[2] : "What are cn, dn etc." [online](https://stackoverflow.com/questions/18756688/what-are-cn-ou-dc-in-an-ldap-search) | zuletzt beuscht 23.01.2020
 
-3 https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format
+[3] : "LDAP Data Interchange Format" [online](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format) | zuletzt beuscht 23.01.2020
 
-4 https://ldapwiki.com/wiki/PosixAccount
+[4] : "PosixAccount" [online](https://ldapwiki.com/wiki/PosixAccount) | zuletzt beuscht 23.01.2020
 
-5 https://access.redhat.com/documentation/en-US/Red_Hat_Directory_Server/8.2/html/Administration_Guide/Examples-of-common-ldapsearches.html
+[5] : "Examples of LDAPsearch" [online](https://access.redhat.com/documentation/en-US/Red_Hat_Directory_Server/8.2/html/Administration_Guide/Examples-of-common-ldapsearches.html) | zuletzt beuscht 23.01.2020
 
-6 [https://ldapwiki.com/wiki/LDAP%20Query%20Examples](https://ldapwiki.com/wiki/LDAP Query Examples)
+[6] : "LDAP Query Example" [online](https://ldapwiki.com/wiki/LDAP Query Examples) | zuletzt beuscht 23.01.2020
 
-7 https://www.codejava.net/coding/connecting-to-ldap-server-using-jndi-in-java
+[7] : "Connecting to LDAP server using JNDI in Java " [online](https://www.codejava.net/coding/connecting-to-ldap-server-using-jndi-in-java) | zuletzt beuscht 23.01.2020
 
